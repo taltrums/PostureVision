@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
+body {
+  font-family: "Red Hat Display";
+  text-align: center;
+}
+
+.rjf {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-right: 2%;
+}
+.heading {
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0%;
+}
+.vision {
+  color: blue;
+}
+.end {
+  background-color: red;
+  color: white;
+  border-radius: 40px;
+  font-family: "Red Hat Display";
+  font-size: 24px;
+  padding: 5px 15px 5px 15px;
+  border: 0px;
+  margin-left: 40%;
+}
+.end:hover {
+  cursor: pointer;
+  background-color: black;
+}
+.current {
+  text-align: center;
+  font-family: "Red Hat Display";
+  font-size: 29px;
+}
+.posture {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 40px;
+  margin-top: -5%;
+  color: blue;
+}
+.graph {
+  text-align: center;
+  font-family: "Red Hat Display";
+  font-size: 29px;
+  margin-top: -4%;
+}
+.focus {
+  text-align: center;
+  font-family: "Red Hat Display";
+  font-size: 29px;
+  margin-top: -7%;
+}
