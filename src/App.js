@@ -237,9 +237,9 @@ export default function App() {
 
         <h3 style={{ display: numIssues == -1 ? "none" : "inline-block", }}>Posture&nbsp;</h3><h3 style={{ display: "inline-block", }}>{statuses.get(numIssues)}</h3>
         <br></br>
-        <p>Shoulders{shoulderSlopeOffset}</p>
-        <p>Head {headSlopeOffset}</p>
-        <p>Shoulder Alignment {shoulderYOffset}</p>
+        <p>Shoulders = {shoulderSlopeOffset}</p>
+        <p>Head = {headSlopeOffset}</p>
+        <p>Shoulder Alignment = {shoulderYOffset}</p>
         <Button variant={button1} onClick={changeSetPrefs}>Set Preferred Posture</Button>{' '}
        
         
